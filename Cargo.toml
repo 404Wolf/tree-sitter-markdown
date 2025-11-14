@@ -1,5 +1,5 @@
 [package]
-name = "tree-sitter-markdown"
+name = "tree-sitter-markdown-fork"
 description = "Markdown grammar for tree-sitter"
 version = "0.7.1"
 keywords = ["incremental", "parsing", "markdown"]
