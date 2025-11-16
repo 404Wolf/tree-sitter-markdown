@@ -5,11 +5,11 @@
 
 #include "./tree_sitter_markdown/token_type.h"
 
-#ifdef TREE_SITTER_MARKDOWN_AVOID_CRASH
-#define TREE_SITTER_MARKDOWN_ASSERT(condition) if (!(condition)) throw 1;
-#else
-#define TREE_SITTER_MARKDOWN_ASSERT(condition) assert(condition)
-#endif
+// #ifdef TREE_SITTER_MARKDOWN_AVOID_CRASH
+// #define TREE_SITTER_MARKDOWN_ASSERT(condition) if (!(condition)) throw 1;
+// #else
+// #define TREE_SITTER_MARKDOWN_ASSERT(condition) assert(condition)
+// #endif
 
 // tree-sitter does not support multiple files for external scanner
 #include "./tree_sitter_markdown/block_context.cc"
